@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.jpg" type="image/png">
+    <title>Hi! There I'm Ruhel Ahmed</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <!--Box icon-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <!-- Custom Css -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <style>
+        .bx-x {
+            position: relative;
+            transition: all 0.7s;
+        }
+
+        .bx-x:hover {
+            transform: rotate(-360deg);
+        }
+    </style>
+</head>
+
+<body>
+    <!--Header Design-->
+    <header class="header">
+        <a href="#home" class="logo"><img src="img/logo.png" alt=""></a>
+        <div class="nav-icon">
+            <i class='bx bx-menu' id="menu-icon"></i>
+            <i class='bx bx-x' id="menu-icon-x"></i>
+        </div>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#skill">Skill</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <!-- Header design -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello! it's me</h3>
+            <h1>Ruhel Ahmed</h1>
+            <h3>And I'm a <a href="#" class="typewrite" data-period="2000"
+                    data-type='["Graphics Designer.", "Web Designer.", "Digital Marketing"]'
+                    style="text-decoration: none;">
+                    <span class="wrap"></span>
+                </a></h3>
+            <p>
+                Hello, I am Ruhel Ahmed. I am a licensed professional graphic Creativity designer with several years of
+                expertise in this industry. I work as a freelancer on a number of marketplaces.
+                I can do any kind of design </p>
+            <div class="social-media">
+                <a href="https://www.facebook.com/profile.php?id=100012192528606&mibextid=ZbWKwL" target="_blank"><i
+                        class='bx bxl-facebook'></i></a>
+                <a href="https://www.linkedin.com/in/ruhel-ahmed-creativityrh/" target="_blank"><i
+                        class='bx bxl-linkedin-square'></i></a>
+                <a href="https://www.behance.net/ruhelahmed16" target="_blank"><i class='bx bxl-behance'></i></a>
+                <a href="https://account.adobe.com/Creativityrh" target="_blank"><i class='bx bxl-adobe'></i></a>
+            </div>
+            <a href="#" class="btn-cv">Download CV</a><a href="#" class="btn-hire">Hire Me</a>
+            <div id="hire-modal">
+                <h2 class="modal-title">I'm Available On</h2>
+                <p class="divider"></p>
+                <a href="">Fiverr</a> <br>
+                <a href="">Upwork</a><br>
+                <a href="">Freelancer.com</a><br>
+                <a href="">Guru</a><br>
+                <a href="">Behance</a><br>
+                <a href="">Adobe Stock</a> <br>
+                <a href="">Dribble</a><br>
+                <button type="button" id="close" class="animate"><i class='bx bx-x animate'></i></button>
+            </div>
+
+        </div>
+        <div class="home-img">
+            <img src="img/home.jpg" alt="">
+        </div>
+    </section>
+    <!-- About Section  Design -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="img/home.jpg" alt="">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span> </h2>
+            <h3>Graphics Designer</h3>
+            <p>
+                Hello, I am Ruhel Ahmed. I am a licensed professional graphic Creativity designer with several years of
+                expertise in this industry. I work as a freelancer on a number of marketplaces.
+                I can do any kind of design
+                Our Services:
+            <p style="display: inline-block;">- Logo Design</p>
+            <p style="display: inline-block;">- Branding</p>
+            <p style="display: inline-block;">- Illustration</p>
+            <p style="display: inline-block;"> - Icon Design</p>
+            <p style="display: inline-block;">- Poster Design</p>
+            <p style="display: inline-block;">- Digital Painting</p>
+            <p style="display: inline-block;">- Banner Design</p>
+            <p style="display: inline-block;">- Leaflets</p>
+            <p style="display: inline-block;"> - Letterheads</p>
+            <p style="display: inline-block;">- Stationery Design</p>
+            <p style="display: inline-block;"> - Flyer Design</p>
+            <p style="display: inline-block;">- Business Cards</p>
+            <p style="display: inline-block;">- Brochure Design</p>
+            <p style="display: inline-block;">- Book Design</p>
+            <p style="display: inline-block;">- Dairy Design</p>
+            <p style="display: inline-block;">- Book Cover Design</p>
+            <p style="display:inline-block;">- T-shirt Design</p>
+            <a href="Graphics.html" target="_blank" class="btn-cv about-btn">Read More</a>
+        </div>
+    </section>
+    <!-- Service section Design -->
+    <section class="service" id="services">
+        <h2 class="heading">My <span>Services</span> </h2>
+        <div class="service-container">
+            <div class="service-box">
+                <i class='bx bxs-paint'></i>
+                <h3>Graphics Design</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore quam doloremque magni ipsam
+                    asperiores voluptatem vero provident omnis quos vel.</p>
+                <a href="Graphics.html" target="_blank" class="btn-cv">Read More</a>
+            </div>
+            <div class="service-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Web Design</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore quam doloremque magni ipsam
+                    asperiores voluptatem vero provident omnis quos vel.</p>
+                <a href="Web-Design.html" target="_blank" class="btn-cv">Read More</a>
+            </div>
+            <div class="service-box">
+                <i class='bx bxs-offer'></i>
+                <h3>Digital Marketing</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore quam doloremque magni ipsam
+                    asperiores voluptatem vero provident omnis quos vel.</p>
+                <a href="Digital-Marketing.html" target="_blank" class="btn-cv">Read More</a>
+            </div>
+        </div>
+    </section>
+    <!-- Skill Section Design -->
+    <section class="skill" id="skill">
+        <!--Education Skill-->
+        <div class="education-skill">
+            <h2 class="heading"><span>Educa</span>tion</h2>
+            <div class="timeline">
+                <div class="timeline-container left">
+                    <div class="content">
+                        <h2>2024</h2>
+                        <h5>Complete Graphics Design</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt quibusdam quis voluptates
+                            quaerat necessitatibus distinctio error corporis sunt sapiente repudiandae.</p>
+                    </div>
+                </div>
+                <div class="timeline-container right">
+                    <div class="content">
+                        <h2>2022</h2>
+                        <h5>Alim/HSC/Complete Web Design</h5>
+                        <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum,
+                            vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim
+                            per, habeo iusto primis ea eam.</p>
+                    </div>
+                </div>
+                <div class="timeline-container left">
+                    <div class="content">
+                        <h2>2020</h2>
+                        <h5>SSC/Dakhil</h5>
+                        <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum,
+                            vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim
+                            per, habeo iusto primis ea eam.</p>
+                    </div>
+                </div>
+                <div class="timeline-container right">
+                    <div class="content">
+                        <h2>2016</h2>
+                        <h5>JDC/JSC</h5>
+                        <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum,
+                            vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim
+                            per, habeo iusto primis ea eam.</p>
+                    </div>
+                </div>
+                <div class="timeline-container left">
+                    <div class="content">
+                        <h2>2014</h2>
+                        <h5>Primary Level</h5>
+                        <p>Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec admodum perfecto mnesarchum,
+                            vim ea mazim fierent detracto. Ea quis iuvaret expetendis his, te elit voluptua dignissim
+                            per, habeo iusto primis ea eam.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Technical Skill-->
+        <h2 class="heading">My <span>Skill</span> </h2>
+
+        <p class="skill-content">Adobe Illustrator</p>
+        <div class="skills-container">
+            <div class="skills html"></div>
+        </div>
+
+        <p class="skill-content">Adobe PhotoShope</p>
+        <div class="skills-container">
+            <div class="skills css"></div>
+        </div>
+
+        <p class="skill-content">Adobe inDesign</p>
+        <div class="skills-container">
+            <div class="skills js"></div>
+        </div>
+
+        <p class="skill-content">MS Powerpoint</p>
+        <div class="skills-container">
+            <div class="skills php"></div>
+        </div>
+    </section>
+    <!--Portfolio Section Design-->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Project</span> </h2>
+        <div class="portfolio-container">
+            <div class="container">
+                <img src="img/FACEBOOK-COVER--1.eps55.jpg" alt="Avatar" class="image">
+                <div class="overlay">
+                    <div class="text">FACEBOOK-COVER</div>
+                </div>
+            </div>
+            <div class="container">
+                <img src="img/digital-marketing-img/email-marketing.jpg" alt="Avatar" class="image">
+                <div class="overlay">
+                    <div class="text">email-marketing</div>
+                </div>
+            </div>
+            <div class="container">
+                <img src="img/landing-page.jpg" alt="Avatar" class="image">
+                <div class="overlay">
+                    <div class="text">Landing-Page-Design</div>
+                </div>
+            </div>
+            <div class="container">
+                <img src="img/picture04.jpg" alt="Avatar" class="image">
+                <div class="overlay">
+                    <div class="text">Team Work</div>
+                </div>
+            </div>
+            <div class="container">
+                <img src="img/graphics-img/logo-portfolio.jpg" alt="Avatar" class="image">
+                <div class="overlay">
+                    <div class="text">logo Design</div>
+                </div>
+            </div>
+            <div class="container">
+                <img src="img/bg-02.jpg" alt="Avatar" class="image">
+                <div class="overlay">
+                    <div class="text">Digital-Marketing</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Project done Section -->
+
+    <div class="row">
+        <div class="column">
+            <div class="card">
+                <p><i class='bx bxs-user'></i></p>
+                <h3>11+</h3>
+                <p>Partners</p>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="card">
+                <p><i class='bx bx-check'></i></p>
+                <h3>55+</h3>
+                <p>Projects</p>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="card">
+                <p><i class='bx bxs-smile'></i></p>
+                <h3>100+</h3>
+                <p>Happy Clients</p>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="card">
+                <p><i class='bx bxl-java'></i></p>
+                <h3>100+</h3>
+                <p>Meetings</p>
+            </div>
+        </div>
+    </div>
+    <!-- Contact Section Design -->
+    <section class="contact" id="contact">
+        <h2 class="heading">
+            Contact <span>Me!</span>
+        </h2>
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Phone Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <a href="https://mail.google.com/mail/u/0/ahmedrh2256@gmail.com" target="_blank" class="btn-cv">Send Messege</a>
+        </form>
+    </section>
+    <!--Footer Section Design-->
+    <footer class="footer">
+        <div class="footer-contact">
+            <address>
+                <h3 class="add">Based On</h3>
+                <p class="addName">Biswnath, Sylhet</p>
+                <p class="addName">Bangladesh</p>
+            </address>
+            <address>
+                <h3 class="add">Contactn</h3>
+                <a href="https://mail.google.com/mail/u/0/ahmedrh2256@gmail.com" target="_blank" class="add-name">E-mail : ahmedrh2256@gmail.com</a>
+                <p class="addName">Phone : +880 1720 146 875</p>
+            </address>
+        </div>
+        <div class="footer-cmnt">
+            <div class="footer-txt">
+                <p>copyright &copy; 2024 By Ruhel Ahmed | All right reselved.</p>
+            </div>
+            <div class="footer-icon-top">
+                <a href="#home"><i class='bx bxs-arrow-from-bottom'></i></a>
+            </div>
+        </div>
+
+    </footer>
+    <!--Custom JS-->
+    <script>
+        $(document).ready(function () {
+            $('#menu-icon').click(function () {
+                $('#menu-icon-x').show();
+                $('#menu-icon').hide();
+            });
+            $('#menu-icon-x').click(function () {
+                $('#menu-icon').show();
+                $('#menu-icon-x').hide();
+            });
+            $('#menu-icon').click(function () {
+                $('.navbar').slideDown();
+            });
+            $('#menu-icon-x').click(function () {
+                $('.navbar').slideUp();
+            });
+            $('.btn-hire').click(function () {
+                $('#hire-modal').slideDown('smooth');
+            });
+            $('#close').click(function () {
+                $('#hire-modal').slideUp('smooth');
+            });
+            $('#close').click(function () {
+                $('.animate').show('smooth');
+            });
+        });
+
+    </script>
+    <!--Scroll reaval-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- Custom js -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>

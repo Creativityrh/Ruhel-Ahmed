@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.jpg" type="image/png">
+    <title>WebDesigner</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <!--Box icon-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <!-- Custom Css -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+
+<body>
+    <!--Header Design-->
+    <header class="header">
+        <a href="#home" class="logo">Ruhel Ahmed</a>
+        <div class="nav-icon">
+            <i class='bx bx-menu' id="menu-icon"></i>
+            <i class='bx bx-x' id="menu-icon-x"></i>
+        </div>
+        <nav class="navbar">
+            <a href="index.html" target="_blank" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#Services">Services</a>
+            <a href="#Skill">Skill</a>
+            <a href="#Portfolio">Portfolio</a>
+            <a href="#Contact">Contact</a>
+        </nav>
+    </header>
+    <!-- Header design -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello! it's me</h3>
+            <h1>Ruhel Ahmed</h1>
+            <h3>And I'm a <a href="#" class="typewrite" data-period="2000"
+                    data-type='["Graphics Designer.", "Web Designer.", "Digital Marketing"]'
+                    style="text-decoration: none;">
+                    <span class="wrap"></span>
+                </a></h3>
+            <p>
+                Hello, I am Ruhel Ahmed. I am a licensed professional graphic Creativity designer with several years of
+                expertise in this industry. I work as a freelancer on a number of marketplaces.
+                I can do any kind of design </p>
+            <div class="social-media">
+                <a href="https://www.facebook.com/profile.php?id=100012192528606&mibextid=ZbWKwL" target="_blank"><i
+                        class='bx bxl-facebook'></i></a>
+                <a href="https://www.linkedin.com/public-profile/settings" target="_blank"><i
+                        class='bx bxl-linkedin-square'></i></a>
+                <a href="https://www.behance.net/ruhelahmed16" target="_blank"><i class='bx bxl-behance'></i></a>
+                <a href="#" target="_blank"><i class='bx bxl-adobe'></i></a>
+            </div>
+            <a href="#" class="btn-cv">Download CV</a><a href="#" class="btn-hire">Hire Me</a>
+            <div id="hire-modal">
+                <h2 class="modal-title">I'm Available On</h2>
+                <p class="divider"></p>
+                <a href="">Fiverr</a> <br>
+                <a href="">Upwork</a><br>
+                <a href="">Freelancer.com</a><br>
+                <a href="">Guru</a><br>
+                <a href="">Behance</a><br>
+                <a href="">Adobe Stock</a> <br>
+                <a href="">Dribble</a><br>
+                <button type="button" id="close" class="animate"><i class='bx bx-x animate'></i></button>
+            </div>
+
+        </div>
+        <div class="home-img">
+            <img src="img/home.jpg" alt="">
+        </div>
+    </section>
+    <!-- About Section  Design -->
+    <section class="about" id="about">
+
+        <div class="about-content">
+            <h2 class="heading">Web <span>Design</span> Services</h2>
+            <p>
+                Hello, I am Ruhel Ahmed. I am a licensed professional graphic Creativity designer with several years of
+                expertise in this industry. I work as a freelancer on a number of marketplaces.
+                I can do any kind of design
+                Our Services:
+            <div class="gd-service">
+                <div class="gd-bx-container">
+                    <div class="gd-bx">
+                        <div class="gd-img">
+                            <img src="img/web-design-img/landing-page.jpg" alt="">
+                        </div>
+                        <div class="gd-content">
+                            <h5>Landing Page</h5>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit, expedita.</p>
+                        </div>
+                    </div>
+                    <div class="gd-bx">
+                        <div class="gd-img">
+                            <img src="img/web-design-img/e-commerce.avif" alt="">
+                        </div>
+                        <div class="gd-content">
+                            <h5>E-Commerce Page</h5>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit, expedita.</p>
+                        </div>
+                    </div>
+                    <div class="gd-bx">
+                        <div class="gd-img">
+                            <img src="img/web-design-img/digital-agency.jpg" alt="">
+                        </div>
+                        <div class="gd-content">
+                            <h5>Digital-Agency-Page</h5>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit, expedita.</p>
+                        </div>
+                    </div>
+                    <div class="gd-bx">
+                        <div class="gd-img">
+                            <img src="img/web-design-img/portfolio.jpg" alt="">
+                        </div>
+                        <div class="gd-content">
+                            <h5>Portfolio-page</h5>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit, expedita.</p>
+                        </div>
+                    </div>
+                    <div class="gd-bx">
+                        <div class="gd-img">
+                            <img src="img/web-design-img/resturant.png" alt="">
+                        </div>
+                        <div class="gd-content">
+                            <h5>Resturant Page</h5>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit, expedita.</p>
+                        </div>
+                    </div>
+                    <div class="gd-bx">
+                        <div class="gd-img">
+                            <img src="img/web-design-img/couriar.png" alt="">
+                        </div>
+                        <div class="gd-content">
+                            <h5>Couriar Shipping Page</h5>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit, expedita.</p>
+                        </div>
+                    </div>
+                    <div class="gd-bx">
+                        <div class="gd-img">
+                            <img src="img/web-design-img/woocomerce.jpg" alt="">
+                        </div>
+                        <div class="gd-content">
+                            <h5>Woo-Comerce-Page</h5>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit, expedita.</p>
+                        </div>
+                    </div>
+                    <div class="gd-bx">
+                        <div class="gd-img">
+                            <img src="img/web-design-img/medical.jpg" alt="">
+                        </div>
+                        <div class="gd-content">
+                            <h5>Mediacal Page</h5>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit, expedita.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Project done Section -->
+
+    <div class="row">
+        <div class="column">
+            <div class="card">
+                <p><i class='bx bxs-user'></i></p>
+                <h3>11+</h3>
+                <p>Partners</p>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="card">
+                <p><i class='bx bx-check'></i></p>
+                <h3>55+</h3>
+                <p>Projects</p>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="card">
+                <p><i class='bx bxs-smile'></i></p>
+                <h3>100+</h3>
+                <p>Happy Clients</p>
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="card">
+                <p><i class='bx bxl-java'></i></p>
+                <h3>100+</h3>
+                <p>Meetings</p>
+            </div>
+        </div>
+    </div>
+    <!-- Contact Section Design -->
+    <section class="contact" id="contact">
+        <h2 class="heading">
+            Contact <span>Me!</span>
+        </h2>
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Phone Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <a href="https://mail.google.com/mail/u/0/ahmedrh2256@gmail.com" target="_blank" class="btn-cv">Send Messege</a>
+        </form>
+    </section>
+    <!--Footer Section Design-->
+    <footer class="footer">
+        <div class="footer-contact">
+            <address>
+                <h3 class="add">Based On</h3>
+                <p class="addName">Biswnath, Sylhet</p>
+                <p class="addName">Bangladesh</p>
+            </address>
+            <address>
+                <h3 class="add">Contact</h3>
+                <a href="https://mail.google.com/mail/u/0/ahmedrh2256@gmail.com" target="_blank" class="add-name">E-mail : ahmedrh2256@gmail.com</a>
+                <p class="addName">Phone : +880 1720 146 875</p>
+            </address>
+        </div>
+        <div class="footer-cmnt">
+            <div class="footer-txt">
+                <p>copyright &copy; 2024 By Ruhel Ahmed | All right reselved.</p>
+            </div>
+            <div class="footer-icon-top">
+                <a href="#home"><i class='bx bxs-arrow-from-bottom'></i></a>
+            </div>
+        </div>
+
+    </footer>
+    <!--Custom JS-->
+    <script>
+        $(document).ready(function () {
+            $('#menu-icon').click(function () {
+                $('#menu-icon-x').show();
+                $('#menu-icon').hide();
+            });
+            $('#menu-icon-x').click(function () {
+                $('#menu-icon').show();
+                $('#menu-icon-x').hide();
+            });
+            $('#menu-icon').click(function () {
+                $('.navbar').slideDown();
+            });
+            $('#menu-icon-x').click(function () {
+                $('.navbar').slideUp();
+            });
+            $('.btn-hire').click(function () {
+                $('#hire-modal').slideDown('smooth');
+            });
+            $('#close').click(function () {
+                $('#hire-modal').slideUp('smooth');
+            });
+            $('#close').click(function () {
+                $('.animate').show('smooth');
+            });
+        });
+
+    </script>
+    <!--Scroll reaval-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- Custom js -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>

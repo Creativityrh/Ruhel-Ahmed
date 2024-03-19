@@ -1,0 +1,363 @@
+/*BREAKPOIN */
+/*All Size */
+@media(max-width: 1200px) {
+    html {
+        font-size: 55%;
+    }
+
+    .card p {
+        font-size: 3rem;
+    }
+
+    .gd-bx-container {
+        gap: 2rem;
+        grid-template-columns: repeat(3, 1fr);
+        left: 0;
+    }
+
+    .gd-bx h5 {
+        font-size: 2.9rem;
+    }
+}
+
+/*Laptop View */
+@media(max-width: 991px) {
+    header {
+        padding: 2rem 9%;
+    }
+
+    section {
+        padding: 10rem 3% 2rem;
+    }
+
+    div#hire-modal {
+        width: 99%;
+        left: 0;
+    }
+
+    h2.modal-title {
+        left: 2rem;
+    }
+
+    div#hire-modal a {
+        left: 2rem;
+    }
+
+    .about-content {
+        width: 50%;
+    }
+
+    a.about-btn {
+        display: block;
+        width: 135px;
+    }
+
+    .service {
+        margin-bottom: 3rem;
+    }
+
+    .gd-bx-container {
+        gap: 2rem;
+        grid-template-columns: repeat(3, 1fr);
+        left: 0;
+    }
+    .gd-bx {
+        width: 30rem;
+        left: 10px;
+    }
+    .about-content h2 {
+        font-size: 3.7rem;
+    }
+
+    .portfolio {
+        margin-bottom: 7rem;
+    }
+
+    .card p {
+        font-size: 3rem;
+    }
+
+    .contact {
+        min-height: auto;
+    }
+
+    footer {
+        padding: 2rem 3%;
+    }
+}
+
+/*Big Size Phone Or Tablet View*/
+@media(max-width: 768px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    header.header {
+        width: 100%;
+    }
+
+    #menu-icon {
+        display: block;
+    }
+
+    .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        padding: 1rem 3%;
+        background: var(--bg-color);
+        border-top: 1px solid rgba(0, 0, 0, 0.2);
+        box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.2);
+        display: none;
+    }
+
+    .navbar a {
+        display: block;
+        font-size: 2rem;
+        margin: 3rem 0;
+    }
+
+    section#home {
+        width: 100%;
+    }
+
+    .home {
+        flex-direction: column;
+    }
+
+    .home-content {
+        width: 100%;
+        margin-left: 5rem;
+    }
+
+    .home-img {
+        width: 100%;
+        top: 10px;
+        position: relative;
+    }
+
+    .home-content h3 {
+        font-size: 2.6rem;
+        width: 100%;
+    }
+
+    .home-content h1 {
+        font-size: 5rem;
+    }
+
+    .home-img img {
+        width: 70vw;
+        margin-top: 5rem;
+        margin-left: 10rem;
+    }
+
+    div#hire-modal {
+        height: 88%;
+    }
+
+    section#about {
+        width: 95%;
+        margin-left: 22px;
+        flex-direction: column-reverse;
+    }
+
+    .about-content {
+        width: 100%;
+    }
+
+    .about-img img {
+        width: 70vw;
+        margin-left: -14rem;
+    }
+
+    section#services {
+        width: 90%;
+        margin-left: 4rem;
+    }
+
+    .service-container {
+        display: block;
+    }
+
+    .service-box {
+        margin-top: 20px;
+    }
+
+    .service h2 {
+        margin-bottom: 3rem;
+    }
+
+    .gd-bx-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    section#portfolio {
+        width: 95%;
+        margin-left: 15px;
+    }
+
+    .portfolio h2 {
+        margin-bottom: 3rem;
+    }
+
+    .portfolio-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .card p {
+        font-size: 2rem;
+    }
+
+    section#contact {
+        width: 95%;
+        margin-left: 12px;
+    }
+
+    footer.footer {
+        width: 98%;
+        margin-left: 13px;
+    }
+}
+
+/*Mobile Phone And Small Mobile Phone View */
+@media(max-width: 576px) {
+    html {
+        font-size: 50%;
+    }
+
+    .home-img img {
+        width: 90vw;
+        margin-top: 5rem;
+        margin-left: 2px;
+    }
+
+    .home-content h1 {
+        font-size: 4rem;
+    }
+
+    .home-content h3:nth-of-type(2) {
+        font-size: 1.9rem;
+    }
+
+    a.btn-hire {
+        margin-top: 2rem;
+        width: 140px;
+        margin-left: 2rem;
+    }
+
+    div#hire-modal {
+        height: 80%;
+        width: 100%;
+        left: -13px;
+        top: 0;
+    }
+
+    section#about {
+        margin-left: 1rem;
+    }
+
+    .about-img {
+        position: relative;
+        top: -60px;
+    }
+
+    .about-img img {
+        width: 90vw;
+        margin-left: 0rem;
+        margin-top: 7rem;
+    }
+
+    .about-content {
+        width: 100%;
+    }
+
+    section#services {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .gd-bx-container {
+        grid-template-columns: repeat(1, 1fr);
+        left: 10px;
+    }
+    .gd-bx {
+        width: 47rem;
+    }
+    .timeline::after {
+        left: 31px;
+    }
+
+    .timeline-container {
+        width: 100%;
+        padding-left: 70px;
+        padding-right: 25px;
+    }
+
+    .timeline-container::before {
+        left: 60px;
+        border: medium solid white;
+        border-width: 10px 10px 10px 0;
+        border-color: transparent white transparent transparent;
+    }
+
+    .left::after,
+    .right::after {
+        left: 15px;
+    }
+
+    .right {
+        left: 0%;
+    }
+
+    .portfolio-container {
+        grid-template-columns: 1fr;
+    }
+
+    .contact form .input-box input {
+        width: 100%;
+    }
+
+    .column {
+        width: 100%;
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .card p {
+        font-size: 4rem;
+    }
+
+    .card h3 {
+        font-size: 3rem;
+    }
+
+    .card p i {
+        font-size: 5rem;
+    }
+
+    .footer {
+        flex-direction: column-reverse;
+    }
+
+    .footer p {
+        font-size: 2rem;
+        text-align: center;
+        margin-top: 2rem;
+    }
+    .footer-cmnt {
+        position: relative;
+        bottom: -137px;
+    }
+    
+    .footer-contact {
+        position: relative;
+        top: -60px;
+        line-height: 30px;
+    }
+    
+    .footer-icon-top {
+        top: -25px;
+        left: 0;
+    }
+}
