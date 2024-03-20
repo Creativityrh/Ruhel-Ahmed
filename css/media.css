@@ -235,7 +235,9 @@
     .home-content h1 {
         font-size: 4rem;
     }
-
+.home-content p {
+    width: 90%;
+}
     .home-content h3:nth-of-type(2) {
         font-size: 1.9rem;
     }
