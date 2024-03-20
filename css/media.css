@@ -348,6 +348,7 @@
     .footer-cmnt {
         position: relative;
         bottom: -137px;
+        left:-20px;
     }
     
     .footer-contact {
